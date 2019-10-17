@@ -1,0 +1,111 @@
+
+
+
+body{
+	margin:3vw;
+	margin-bottom: 7vw;
+	font-family: 'PT Serif', serif;
+}
+
+h1{ 
+	font-size: 3em; 
+	line-height:4.5vw;
+	font-family: 'Cinzel', serif;
+}
+
+h2{ 
+	font-size: 1.5em;
+	line-height:3vw;
+	font-family: 'Cinzel', serif;
+}
+
+h3 { 
+	font-size: 1.3em; 
+}
+
+h4{
+	line-height:1.25vw;
+}
+
+p{
+	line-height:3vw;
+}
+
+#top{
+	text-align: center;
+}
+
+#subTop{
+	color: #595959;
+}
+
+.part{
+	margin-top:2vw;
+	margin-bottom:2vw;
+	font-size: 120%;
+}
+
+.tableTop{
+	/* The letter-spacing css tag controls the space between individual letters*/
+	letter-spacing: .25em;
+}
+
+.tableLeft{
+	padding-right:1vw;
+}
+
+.date{
+	padding-left:1vw;
+}
+
+a{
+	color: #368059;
+	text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A198D1;
+  /* background behind text */
+  background-color: #368059;
+  /* alters the brightness of the text color */
+  filter: brightness(110%);
+}
+
+a:visited {
+	color: #534271;
+}
+
+#jokerImage{
+	margin: 1.5vw;
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	background-image: url("../Images/joker.jpg");
+	background-size: contain;
+	margin-left:40vw;
+}
+
+ul{
+  list-style-type: disc; 
+  list-style-position: inside; 
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: .25vw;
+}
+
+address{
+	text-align: center;
+	color: #595959;
+}
+
+
+
+
+
+
