@@ -1,70 +1,557 @@
+/* DEVICES (mobile version) */
+@media only screen and (min-width: 375px){
+
+body{
+margin-top: 20px;
+}
+
+header{
+background-image: url("../images/treesEditHead.jpg");
+background-size: cover;
+text-align: center;
+height:80px;
+padding-top:5px;
+}
+
+nav{
+background-color: #ABDAE6;
+color: white;
+word-spacing: 10px;
+padding-left:12px;
+margin-top:7px;
+height: 40px;
+padding-top:4px;
+}
+
+address{
+color: white;
+}
+
+nav h2{
+font-size: 1.15em;
+}
+
+a{
+text-decoration: none;
+color:white;
+}
+
+a:visited{
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+color: darkgrey;
+}
+
+a:active{
+color:white;
+text-decoration:none;
+}
+
+article{
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+footer{
+background-color: lightgrey;
+text-align: center;
+color: white;
+}
+
+h1{
+font-size: 1.5em;
+color: white;
+font-family: 'Rock Salt', cursive;
+letter-spacing: 0.25em;
+}
+
+h2{
+font-size: 1.5em;
+font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+font-family: 'Montserrat', sans-serif;
+}
+
+p{
+font-family: 'Noto Serif', serif;
+}
+
+#intropic{
+background-image: url("../images/skyview.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 330px;
+height: 270px;
+}
+
+#historypic{
+background-image: url(../images/lights.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+width: 330px;
+height: 270px;
+}
+
+#factspic{
+background-image: url("../images/high.jpg");
+width:350px;
+height:150px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+/* Gallery Div Images*/
+#gal1{
+background-image: url("../images/skyview.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal2{
+background-image: url("../images/trees.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal3{
+background-image: url("../images/high.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal4{
+background-image: url("../images/beach.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal5{
+background-image: url("../images/water.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal6{
+background-image: url("../images/path.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal7{
+background-image: url("../images/skyview.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal8{
+background-image: url("../images/miami1.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal9{
+background-image: url("../images/pool.jpeg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+#gal10{
+background-image: url("../images/high.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 220px;
+height: 190px;
+padding:30px;
+}
+
+/* Attractions Div Images*/
+
+#att1{
+background-image: url("../images/night.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 310px;
+height: 240px;
+}
+
+#att2{
+background-image: url("../images/skyview.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 310px;
+height: 240px;
+}
+
+#att3{
+background-image: url("../images/lights.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 310px;
+height: 240px;
+}
+
+#att4{
+background-image: url("../images/beach.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 310px;
+height: 240px;
+}
+
+
+/* contact Div Images*/
+#contact1{
+background-image: url("../images/map.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 310px;
+height: 240px;
+}
+
+#contact2{
+background-image: url("../images/welcome.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 310px;
+height: 240px;
+}
+
+}
 
 
 
-		@media only screen and (min-width: 375px){
+/* DEVICES (tablets and ipads) */
+@media only screen and (min-width: 768px){
+
+h1{
+font-size: 2em;
+letter-spacing: 0.5em;
+}
+
+header{
+background-image: url("../images/tabletHeader.jpg");
+background-size: cover;
+height: 150px;
+}
+
+nav{
+word-spacing: 40px;
+text-align: center;
+padding-left: 0px;
+padding-bottom:10px;
+}
+
+footer{
+height:60px;
+padding-top:15px;
+}
+
+#intro{
+width:380px;
+text-align: center;
+}
+
+#intropic{
+width:300px;
+position: absolute;
+right: 50px;
+top: 330px;
+}
+
+#history{
+width: 360px;
+position: absolute;
+right: 30px;
+top: 550px;
+text-align: center;
+margin-top:40px;
+}
+
+#historypic{
+margin-bottom:60px;
+}
+
+#factspic{
+position: absolute;
+right: 0px;
+top: 850px;
+margin-bottom: 30px;
+}
+
+#galChunk{
+margin-left:200px;
+}
+
+#mapInfo{
+position: absolute;
+right: 140px;
+top: 280px;
+}
+
+#contactPage{
+height: 700px;
+}
+
+#contact2{
+position: absolute;
+right: 0px;
+top: 650px;
+width: 600px;
+}
+
+#facts{
+position: absolute;
+left:30px;
+top:850px;
+}
+
+}
 
 
-			body{
-				margin-top: 20px;
-			}
 
-			.container{
+/* DEVICES (laptop and desktops) */
+@media only screen and (min-width: 1200px){
 
-				display:grid;
-				grid-gap: 5px;
-				grid-template-rows: 60px 35px 1600px 35px; 
-				grid-template-columns: 1fr;
-       			grid-template-areas:"header"
-                             		"nav"
-                             		"article"
-                             		"footer";
+nav{
+word-spacing: 120px;
+text-align: center;
+padding-left: 0px;
+height:50px;
+}
 
-			}
+header{
+background-image: url("../images/wideHeader.jpg");
+background-size: cover;
+height: 170px;
+}
 
-			header{
-				background-color:blue;
-				grid-area: header;
-				text-align: center;
-			}
+footer{
+height: 80px;
+padding-top: 20px;
+}
 
-			nav{
-				background-color: grey;
-				grid-area: nav;
-				word-spacing: 19px;
-				padding-left:19px;	
-			}
+h1{
+font-size: 2.5em;
+letter-spacing: 0.5em;
+}
 
-			nav h2{
-				font-size: 1em;	
-			}
+#intro{
+text-align: left;
+width:550px;
+padding-left:130px;
+line-height: 200%;
+}
 
-			article{
-				background-color: green;
-				grid-area: article;
-				margin-top: 10px;
-				margin-bottom: 10px;
-				padding: 20px;
-			}
+#intropic{
+width:300px;
+position: absolute;
+right: 200px;
+top: 340px;
+width:450px;
+}
 
-			footer{
-				background-color: grey;
-				grid-area: footer;
-			}
-			
+#facts{
+width:300px;
+position: absolute;
+left: 200px;
+top: 1020px;
+width:450px;
+text-align: left;
+line-height: 300%;
+}
 
-			h1{
-				font-size: 2em;
-				
-			}
+#factspic{
+position: absolute;
+right: 200px;
+top: 1020px;
+width:450px;
+height:300px;
+}
 
-			h2{
-				font-size: 1.5em;
-			}
+#historypic{
+position: absolute;
+left: 150px;
+top: 660px;
+width: 550px;
+height:330px;
+}
 
-		}
+#history{
+width:300px;
+position: absolute;
+right: 200px;
+top: 630px;
+width:450px;
+text-align: left;
+line-height: 200%;
+}
 
-		@media only screen and (min-width: 768px){
+.gal:nth-child(odd) {
+padding-left: 300px;
+height: 400px;
+width: 500px;
+}
 
-		
+#galChunk{
+text-align: center;
+margin-left:250px;
+}
 
-		}
+main{
+width: 800px;
+text-align: center;
+margin-left: 310px;
+line-height: 200%;
+}
+
+#mapInfo{
+position: absolute;
+left: 350px;
+top: 300px;
+}
+
+#mapPic{
+position: absolute;
+left: 760px;
+top: 300px;
+}
+
+#building{
+position: absolute;
+right: 380px;
+top: 700px;
+width: 700px;
+}
+
+#indexFooter{
+margin-top:700px;
+}
+
+#gal1{
+margin-left: 0px;
+height: 400px;
+width: 500px;
+}
+
+#gal2{
+margin-left: 300px;
+height: 400px;
+width: 500px;
+}
+
+#gal3{
+margin-left: 0px;
+height: 400px;
+width: 500px;
+}
+
+#gal4{
+margin-left: 300px;
+height: 400px;
+width: 500px;
+}
+
+#gal5{
+margin-left: 0px;
+height: 400px;
+width: 500px;
+}
+
+#gal6{
+margin-left: 300px;
+height: 400px;
+width: 500px;
+}
+
+#gal7{
+margin-left: 0px;
+height: 400px;
+width: 500px;
+}
+
+#gal8{
+margin-left: 300px;
+height: 400px;
+width: 500px;
+}
+
+#gal9{
+margin-left: 0px;
+height: 400px;
+width: 500px;
+}
+
+#gal10{
+margin-left: 300px;
+height: 400px;
+width: 500px;
+}
+
+/* Attractions Div Images*/
+
+#att1{
+width: 550px;
+height: 380px;
+margin-left:120px;
+}
+
+#att2{
+width: 550px;
+height: 380px;
+margin-left:120px;
+}
+
+#att3{
+width: 550px;
+height: 380px;
+margin-left:120px;
+}
+
+#att4{
+width: 550px;
+height: 380px;
+margin-left:120px;
+}
+
+#contact2{
+	right: 320px;
+}
+
+}
+
+
+
+
